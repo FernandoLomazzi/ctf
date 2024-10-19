@@ -1,5 +1,5 @@
 async function cambiarImagen() {
-    const url = 'https://chl-40a9eb6a-605a-4ead-bfc7-8936c35d10c1-blog-hacklab.softwareseguro.com.ar/profile';
+    const url = 'https://chl-ad0dc653-d267-4760-b281-fe3a2a80e455-blog-hacklab.softwareseguro.com.ar/profile';
     const formData = new FormData();
     formData.append('bio', 'None');
     const emptyFile = new Blob([], { type: 'application/octet-stream' });
