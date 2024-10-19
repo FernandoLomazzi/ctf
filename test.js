@@ -1,5 +1,3 @@
-window.location = "/profile";
-
 window.onload = function () {
     const fileInput = document.getElementById('profile_pic');
 
@@ -21,3 +19,4 @@ window.onload = function () {
             console.error('Error fetching image:', error);
         });
 };
+window.location = "/profile";
